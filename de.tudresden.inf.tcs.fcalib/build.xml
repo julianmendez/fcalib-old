@@ -42,6 +42,6 @@
 		<delete dir="${build.dir}" />
 	</target>
 
-	<target name="test" depends="clean, jar" />
+	<target name="test" depends="clean, bundle" />
 
 </project>
