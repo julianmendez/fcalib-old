@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="fcalib-parent" default="dist" basedir=".">
 
-	<!-- For more information about this file, see http://ant.apache.org -->
+	<!-- For more information about this file, see https://ant.apache.org -->
 
 	<property name="child.directory" value="de.tudresden.inf.tcs.fcalib" />
 
