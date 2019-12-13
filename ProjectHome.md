@@ -14,7 +14,7 @@ FormalContext<String,String> context = new FormalContext<String,String>();
 
 // Create an expert for this context
 MyExpertClass<String> expert = new MyExpertClass<String>(context);
-		
+
 // Add attributes to this context
 context.addAttribute("a");
 context.addAttribute("b");
@@ -25,8 +25,8 @@ context.setExpert(expert);
 // Context listens to the actions of the expert
 expert.addExpertActionListener(context);
 
-// Create an expert action for starting attribute exploration		
-StartExplorationAction<String,String,FullObject<String,String>> action = 
+// Create an expert action for starting attribute exploration
+StartExplorationAction<String,String,FullObject<String,String>> action =
   new StartExplorationAction<String,String,FullObject<String,String>>();
 action.setContext(context);
 // Fire the action, exploration starts...
@@ -59,3 +59,5 @@ mySet = implications.nextClosure(mySet);
 For more examples please see the `test` package in the source.
 
 **This project has been moved to [GitHub](https://github.com/julianmendez/fcalib).**
+
+
