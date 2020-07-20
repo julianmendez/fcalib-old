@@ -4,11 +4,15 @@
 # http://travis-ci.org/
 #
 
+---
+
 language: java
+
+os: linux
+
+dist: bionic
 
 jdk:
   - openjdk8
-
-sudo: false
 
 
